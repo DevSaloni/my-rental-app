@@ -1,0 +1,35 @@
+.highlights-no-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.highlight-block {
+  flex: 1;
+  min-width: 220px;
+  max-width: 280px;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.highlight-icon {
+  font-size: 3.4rem;
+  color: #007bff;
+  margin-bottom: 16px;
+}
+
+.highlight-block h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.highlight-block p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444;
+}

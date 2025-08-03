@@ -1,0 +1,60 @@
+.host-full-banner {
+  background-image: url('/landloard.jpeg'); /* ✅ Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 570px;
+  margin-top: 80px ;
+  position: relative;
+  display: flex;
+  justify-content: flex-end; /* push content to right side */
+  align-items: center;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  margin-left: 80px;
+  border-top-left-radius: 34px;
+  border-bottom-left-radius: 34px;
+}
+
+/* Right side content on top of image */
+.host-text-box {
+  max-width: 500px;
+  /* background-color: rgba(255, 255, 255, 0.85); Soft white background */
+  padding: 40px;
+  border-radius: 24px;
+  text-align: left;
+  color: #003f7f;
+  padding-right: 5pxpx;
+  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); */
+}
+
+.host-text-box h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color:black;
+  margin-bottom: 2%;
+}
+
+.host-text-box p {
+  font-size: 25px;
+  line-height: 1.6;
+  color: gray;
+  margin-bottom: 24px;
+}
+
+.host-cta-btn {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  border: none;
+  padding: 12px 28px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.host-cta-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #00aaff);
+}

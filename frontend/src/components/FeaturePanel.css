@@ -1,0 +1,36 @@
+.full-image-panel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 580px; /* Fix panel height */
+  background-image: url('/featurepanel.jpeg');
+  background-size: cover;          /* Fill the area without distortion */
+  background-position: center;     /* Center the image */
+  background-repeat: no-repeat;
+  padding: 40px;
+  margin-right: 80px;
+  color: white;
+  box-sizing: border-box;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.text-overlay {
+  max-width: 500px;
+  background-color: none; /* semi-transparent black box */
+  color: black;
+  margin-left:0px;
+  border-radius: 12px;
+}
+
+.text-overlay h1 {
+  font-size: 45px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 24px;
+  color:grey;
+  line-height: 1.6;
+}

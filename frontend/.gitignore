@@ -1,0 +1,23 @@
+# Node modules - always ignore this
+node_modules/
+
+# Environment variables
+.env
+
+# Uploaded images or files (owner uploads)
+uploads/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Build files (if any)
+dist/

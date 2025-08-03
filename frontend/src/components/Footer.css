@@ -1,0 +1,82 @@
+.footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-links-section {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 8px 0;
+}
+
+.footer-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #1abc9c;
+}
+
+.footer-contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-contact p {
+  margin: 8px 0;
+}
+
+.footer-head{
+ font-size: 22px;
+ color: #fff;
+}
+.footer-social a {
+  margin-right: 10px;
+  color: #ecf0f1;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #1abc9c;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #7f8c8d;
+  padding-top: 15px;
+  font-size: 14px;
+}

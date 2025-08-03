@@ -1,0 +1,92 @@
+.hero-container {
+  background-image: url('/mainback.png'); /* your background image */
+  height: 100vh;
+  background-size: cover;
+  background-position: center right; /* focus on right side image */
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content-left {
+  color: #fff;
+  padding: 60px 80px;
+  max-width: 600px;
+  text-align: left;
+  animation: fadeInLeft 1s ease forwards;
+  opacity: 0;
+}
+
+.hero-content-left h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #ffd700;
+}
+
+.hero-content-left p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.check-icon {
+  color: #ffd700; /* Green color */
+  font-size: 1.2rem;
+}
+
+
+.cta-button {
+  padding: 12px 24px;
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffd700;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+}
