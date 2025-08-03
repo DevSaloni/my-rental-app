@@ -55,7 +55,7 @@ const ListPropertyForm = () => {
     }
 
     try {
-      const res = await fetch('http://localhost:2010/api/properties/property-add', {
+      const res = await fetch('https://my-rental-app-backend.onrender.com/api/properties/property-add', {
         method: 'POST',
         body: payload,
       });
