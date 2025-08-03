@@ -10,7 +10,7 @@ const BrowserRental = () => {
   useEffect(() => {
     const fetchProperties = async () => {
       try {
-        const response = await fetch('http://localhost:2010/api/properties/all-properties');
+        const response = await fetch('https://my-rental-app-backend.onrender.com/api/properties/all-properties');
         const data = await response.json();
         setProperties(data);
       } catch (error) {
