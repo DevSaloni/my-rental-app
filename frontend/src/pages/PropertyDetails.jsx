@@ -10,7 +10,7 @@ const PropertyDetails = () => {
   useEffect(() => {
     const fetchProperty = async () => {
       try {
-        const res = await fetch(`http://localhost:2010/api/properties/property/${id}`);
+        const res = await fetch(`https://my-rental-app-backend.onrender.com/api/properties/property/${id}`);
         if (!res.ok) throw new Error('Property not found');
         const data = await res.json();
         setProperty(data);
