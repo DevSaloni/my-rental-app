@@ -5,7 +5,7 @@ export const addProperty = async (req, res) => {
     const {title, ownerName, email, phone, propertyType, city, rent, availableFrom ,description} = req.body;
 
     // If file uploaded, create full URL, else empty string
-    const imagePath = req.file ? `http://localhost:2010/uploads/${req.file.filename}` : '';
+const imagePath = req.file ? `https://my-rental-app-backend.onrender.com/uploads/${req.file.filename}` : '';
 
     const newProperty = new Property({
       title,
