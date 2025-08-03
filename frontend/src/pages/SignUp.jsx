@@ -27,7 +27,7 @@ const SignUp = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:2010/api/auth/signup', {
+      const response = await fetch('https://my-rental-app-backend.onrender.com/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
