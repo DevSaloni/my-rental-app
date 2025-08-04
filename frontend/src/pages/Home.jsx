@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('https://my-rental-app-backend.onrender.com/api/properties/all-properties');
+        const res = await fetch('https://my-rental-app.onrender.com/api/properties/all-properties');
         const data = await res.json();
         setAllProperties(data);
       } catch (err) {
