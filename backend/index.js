@@ -35,12 +35,14 @@ app.use('/api', contactRoute);
 app.use('/api/properties', propertyRoute);
 
 const PORT = process.env.PORT || 2010;
-mongoose.connect("mongodb://127.0.0.1:27017/rentmate",{
-useNewUrlParser: true,
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
-    console.log("mongodb connect successfully");
-}).catch(err => console.log(err));
+  console.log("MongoDB Atlas connected successfully");
+}).catch((err) => {
+  console.error("MongoDB connection error:", err);
+});
 
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
