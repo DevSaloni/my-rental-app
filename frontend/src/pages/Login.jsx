@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://my-rental-app-backend.onrender.com/api/auth/login', {
+      const response = await fetch('https://my-rental-app.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
