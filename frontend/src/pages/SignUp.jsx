@@ -39,7 +39,7 @@ const SignUp = () => {
       console.log("Signup response:", response);
       console.log("Returned data:", data);
 
-      if (response.status === 201 && data.token) {
+      if (response.status === 201) {
         // Save token
         localStorage.setItem('rentmate_token', data.token);
 
