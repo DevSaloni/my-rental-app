@@ -35,7 +35,7 @@ app.use('/api', contactRoute);
 app.use('/api/properties', propertyRoute);
 
 const PORT = process.env.PORT || 2010;
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
